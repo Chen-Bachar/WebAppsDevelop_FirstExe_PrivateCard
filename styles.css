@@ -1,0 +1,36 @@
+
+body{
+	direction: rtl;
+}
+
+.card{
+	align-items: center;
+	justify-self: anchor-center;
+	color:deeppink !important;
+}
+
+.card-img-top{
+	min-width: 19px;
+	max-width: 700px;
+}
+
+.list-group-item{
+	color:deeppink !important;
+
+}
+
+.page {
+    background: white;
+    color: black;
+    min-height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+#theme-toggle:checked + .toggle + .page {
+    background: #121212;
+    color: white;
+}
+
+
+
