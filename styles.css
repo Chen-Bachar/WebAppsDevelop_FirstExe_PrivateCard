@@ -3,34 +3,61 @@ body{
 	direction: rtl;
 }
 
+.page {
+    background-color: white;
+    color: black;
+}
+
+#theme-checkbox {
+    display: none;
+}
+
+
 .card{
 	align-items: center;
-	justify-self: anchor-center;
-	color:deeppink !important;
-}
-
-.card-img-top{
-	min-width: 19px;
-	max-width: 700px;
-}
-
-.list-group-item{
-	color:deeppink !important;
+    margin-bottom: 2%;
+    margin-top: 2%;
 
 }
 
-.page {
-    background: white;
-    color: black;
-    min-height: 100vh;
-    padding: 20px;
-    transition: 0.3s;
+.card-img{
+    max-height: 460px;
+    align-content: center;
+
 }
 
-#theme-toggle:checked + .toggle + .page {
-    background: #121212;
-    color: white;
+.card-link{
+    margin-right: 10px;
+    margin-left: 10px;
+
 }
+
+.list-title{
+    font-weight: bold
+}
+
+/* Dark Mode */
+#theme-checkbox:checked + .page{
+    background:#121212;
+    color:white;
+}
+
+#theme-checkbox:checked + .page .card{
+    background:#1e1e1e;
+    color:white;
+}
+
+#theme-checkbox:checked + .page .list-group-item{
+    background:#1e1e1e;
+    color:white;
+}
+
+#theme-checkbox:checked + .page a{
+    color:#66b3ff;
+}
+
+
+
 
 
 
