@@ -32,15 +32,6 @@ body{
 
 }
 
-.list-title{
-    font-weight: bold
-}
-
-.list-group-flush
-{
-    padding: 0;
-}
-
 .card-link{
    white-space: nowrap;
    display: flex;
@@ -60,6 +51,15 @@ body{
     padding: 4px;
     max-width: 900px;
     line-height: 1.5;
+}
+
+.list-title{
+    font-weight: bold
+}
+
+.list-group-flush
+{
+    padding: 0;
 }
 
 .btn-secondary{
