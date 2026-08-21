@@ -36,6 +36,37 @@ body{
     font-weight: bold
 }
 
+.list-group-flush
+{
+    padding: 0;
+}
+
+.card-link{
+   white-space: nowrap;
+   display: flex;
+   padding: 2px;
+}
+
+.card-title{
+    padding: 4px;
+}
+
+.card-subtitle{
+    padding: 4px;
+}
+
+.card-text{
+    margin-bottom: 0px;
+    padding: 4px;
+    max-width: 900px;
+    line-height: 1.5;
+}
+
+.btn-secondary{
+    margin-top: 2%;
+    width: inherit;
+}
+
 /* Dark Mode */
 #theme-checkbox:checked + .page{
     background:#121212;
@@ -50,11 +81,16 @@ body{
 #theme-checkbox:checked + .page .list-group-item{
     background:#1e1e1e;
     color:white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
 }
 
 #theme-checkbox:checked + .page a{
     color:#66b3ff;
 }
+
+
 
 
 
